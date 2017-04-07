@@ -6,8 +6,8 @@ A theme for [Hyper](https://hyper.is/) inspired by Campo Santo's [Firewatch game
 
 - Removal window and tab borders for a flatter, cleaner look.
 - Addition of further color variations.
-- Addition of a background tab activity indicator (*)
-- Addition of background colors to inactive tabs
+- Addition of background colors to inactive tabs.
+- Addition of dark vibrancy support.
 
 I've only been tested this theme on macOS Sierra, and I cannot attest to the experience on other platforms.
 

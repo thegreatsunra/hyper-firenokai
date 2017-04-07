@@ -7,7 +7,7 @@ const BLUE = '#5e9ccf';
 const MAGENTA = '#df671f';
 const CYAN = '#51b6c3';
 const WHITE = '#ebebff';
-const BLACK = '#6b7380';
+const BLACK = 'rgba(0,0,0,0.15)';
 
 const BRIGHT_RED = '#C9525A';
 const BRIGHT_GREEN = '#51AA71';
@@ -20,7 +20,8 @@ const BRIGHT_BLACK = '#525A67';
 
 const DEEP_BLACK = '#202228';
 
-const BACKGROUND_COLOR = '#282C34';
+const WINDOW_BACKGROUND_COLOR = 'rgba(40, 44, 52, 0.75)';
+const TERMINAL_BACKGROUND_COLOR = 'rgba(0, 0, 0, 0.15)';
 const FOREGROUND_COLOR = WHITE;
 const BORDER_COLOR = DEEP_BLACK;
 
@@ -70,9 +71,14 @@ const CSS = `
     display: none !important;
   }
 
+  .tabs_nav > .tabs_title {
+  	width: 100%;
+  	height: 100%;
+  	background-color: ${TERMINAL_BACKGROUND_COLOR} !important;
+  }
+
   .tabs_list {
     margin-left: 0;
-    background: ${DEEP_BLACK};
   }
 
   .tab_tab {
@@ -87,7 +93,7 @@ const CSS = `
   }
 
   .tabs_list .tab_active {
-    background-color: ${BACKGROUND_COLOR} !important;
+    background-color: ${TERMINAL_BACKGROUND_COLOR} !important;
   }
 
   .tab_text {
@@ -96,18 +102,24 @@ const CSS = `
     opacity: 0.5;
   }
 
-  .tab_hasActivity .tab_text .tab_textInner::after {
-    content: ' *';
-  }
-
   .tab_active .tab_text {
     opacity: 1;
   }
+
+  .hyper_main {
+  	border: none !important;
+  }
+
+  .term_active {
+    background-color: ${TERMINAL_BACKGROUND_COLOR};
+  }
 `;
+
+exports.onWindow = browserWindow => browserWindow.setVibrancy('dark');
 
 exports.decorateConfig = (config) => (
   Object.assign({}, config, {
-    backgroundColor: BACKGROUND_COLOR,
+    backgroundColor: WINDOW_BACKGROUND_COLOR,
     foregroundColor: FOREGROUND_COLOR,
     borderColor: BORDER_COLOR,
     cursorColor: FOREGROUND_COLOR,
@@ -129,7 +141,7 @@ exports.middleware = () => (next) => (action) => {
     case 'CONFIG_LOAD':
     case 'CONFIG_RELOAD':
       action.config.foregroundColor = FOREGROUND_COLOR;
-      action.config.backgroundColor = BACKGROUND_COLOR;
+      action.config.backgroundColor = WINDOW_BACKGROUND_COLOR;
       action.config.cursorColor = FOREGROUND_COLOR;
       action.config.borderColor = BORDER_COLOR;
       action.config.colors = COLORS;
