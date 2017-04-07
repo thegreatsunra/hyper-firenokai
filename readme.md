@@ -1,6 +1,6 @@
 # hyper-firewatch
 
-![](screenshot.png)
+![](screenshot.gif)
 
 A theme for [Hyper](https://hyper.is/) inspired by Campo Santo's [Firewatch game](http://www.firewatchgame.com/). Adapted from [Sebastian Szturo](https://github.com/SebastianSzturo)'s [Atom syntax theme](https://atom.io/themes/firewatch-syntax), and forked from [Ben Styles'](https://github.com/leeds-ebooks) [hyperterm-firewatch](https://github.com/leeds-ebooks/hyperterm-firewatch) theme. This fork makes a number of changes to the theme, including:
 
