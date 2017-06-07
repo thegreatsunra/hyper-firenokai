@@ -1,26 +1,26 @@
 'use strict'
 
-const RED = '#e26b73';
-const GREEN = '#6ac38a';
-const YELLOW = '#e6c176';
-const BLUE = '#5e9ccf';
-const MAGENTA = '#df671f';
-const CYAN = '#51b6c3';
+const RED = '#F92672'; // pink
+const GREEN = '#A6E22E';
+const YELLOW = '#FD971F'; // orange
+const BLUE = '#AE81FF'; // purple
+const MAGENTA = '#AE81FF'; // purple
+const CYAN = '#38CCD1';
 const WHITE = '#ebebff';
 const BLACK = 'rgba(0,0,0,0.15)';
 
-const BRIGHT_RED = '#C9525A';
-const BRIGHT_GREEN = '#51AA71';
-const BRIGHT_YELLOW = '#CDA85D';
-const BRIGHT_BLUE = '#4583B6';
-const BRIGHT_MAGENTA = '#C64E06';
-const BRIGHT_CYAN = '#389DAA';
-const BRIGHT_WHITE = '#D2D2E6';
-const BRIGHT_BLACK = '#525A67';
+const BRIGHT_RED = RED;
+const BRIGHT_GREEN = GREEN;
+const BRIGHT_YELLOW = YELLOW;
+const BRIGHT_BLUE = BLUE;
+const BRIGHT_MAGENTA = MAGENTA;
+const BRIGHT_CYAN = CYAN;
+const BRIGHT_WHITE = WHITE;
+const BRIGHT_BLACK = BLACK;
 
-const DEEP_BLACK = '#202228';
+const DEEP_BLACK = BLACK;
 
-const WINDOW_BACKGROUND_COLOR = 'rgba(40, 44, 52, 0.75)';
+const WINDOW_BACKGROUND_COLOR = 'rgba(25,25,25,0.75)';
 const TERMINAL_BACKGROUND_COLOR = 'rgba(0, 0, 0, 0.15)';
 const FOREGROUND_COLOR = WHITE;
 const BORDER_COLOR = DEEP_BLACK;
