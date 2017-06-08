@@ -96,6 +96,10 @@ const CSS = `
     background-color: ${TERMINAL_BACKGROUND_COLOR} !important;
   }
 
+  .tab_first {
+    padding-left: 50px !important;
+  }
+
   .tab_text {
     color: ${FOREGROUND_COLOR};
     border: 0 !important;
