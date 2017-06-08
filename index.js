@@ -1,10 +1,12 @@
 'use strict'
 
-const RED = '#F92672'; // pink
+const BROWN_GRAY = '#65645a'; // monokai brown gray
+
+const RED = '#F92672'; // monokai pink
 const GREEN = '#A6E22E';
-const YELLOW = '#FD971F'; // orange
-const BLUE = '#AE81FF'; // purple
-const MAGENTA = '#AE81FF'; // purple
+const YELLOW = '#FD971F'; // monokai orange
+const BLUE = '#AE81FF'; // monokai purple
+const MAGENTA = '#AE81FF'; // monokai purple
 const CYAN = '#38CCD1';
 const WHITE = '#ebebff';
 const BLACK = 'rgba(0,0,0,0.15)';
@@ -16,7 +18,7 @@ const BRIGHT_BLUE = BLUE;
 const BRIGHT_MAGENTA = MAGENTA;
 const BRIGHT_CYAN = CYAN;
 const BRIGHT_WHITE = WHITE;
-const BRIGHT_BLACK = BLACK;
+const BRIGHT_BLACK = BROWN_GRAY;
 
 const DEEP_BLACK = BLACK;
 
