@@ -23,7 +23,7 @@ Inspired by Campo Santo's [Firewatch game](http://www.firewatchgame.com/). Adapt
 
 ## Install
 
-In Hyper, open Preferences, add `hyper-firenokai` to the plugins list in your `~/.hyper.js` config file.
+In Hyper, open Preferences and add `hyper-firenokai` to the plugins list. Save your changes to the config file, and then quit and restart Hyper.
 
 ## License
 
