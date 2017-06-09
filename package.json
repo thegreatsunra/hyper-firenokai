@@ -1,7 +1,8 @@
 {
-  "name": "hyper-firewatch",
+  "name": "hyper-firenokai",
   "version": "0.3.0",
   "description": "A theme for Hyper that combines Firewatch and Monokai",
+  "homepage": "https://github.com/thegreatsunra/hyper-firenokai",
   "keywords": [
     "hyperterm",
     "hyperterm-theme",
@@ -37,12 +38,12 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/evansims/hyper-firewatch/issues"
+    "url": "https://github.com/thegreatsunra/hyper-firenokai/issues"
   },
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evansims/hyper-firewatch.git"
+    "url": "git+https://github.com/thegreatsunra/hyper-firenokai.git"
   },
   "dependencies": {},
   "engines": {}

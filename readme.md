@@ -1,4 +1,4 @@
-# hyper-firewatch
+# hyper-firenokai
 
 ![](screenshot.png)
 
@@ -17,8 +17,9 @@ I've only been tested this theme on macOS Sierra, so I cannot attest to the expe
 
 Issues are open and pull requests are welcome.
 
-Add `hyper-firewatch` to the plugins list in your `~/.hyper.js` config file.
+## Install
 
+Add `hyper-firenokai` to the plugins list in your `~/.hyper.js` config file.
 
 ## License
 
