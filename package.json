@@ -1,14 +1,14 @@
 {
   "name": "hyper-firewatch",
   "version": "0.3.0",
-  "description": "A dark Hyper theme inspired by Campo Santo's Firewatch video game.",
-  "homepage": "https://github.com/evansims/hyper-firewatch#readme",
+  "description": "A theme for Hyper that combines Firewatch and Monokai",
   "keywords": [
     "hyperterm",
     "hyperterm-theme",
     "hyper",
     "hyper-theme",
     "firewatch",
+    "monokai",
     "dark",
     "dark mode"
   ],
