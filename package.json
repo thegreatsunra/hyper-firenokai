@@ -14,18 +14,26 @@
   ],
   "license": "MIT",
   "author": {
-    "name": "Evan Sims",
-    "email": "hello@evansims.com>",
-    "url": "http://evansims.com"
+    "name": "Dane Petersen",
+    "email": "thegreatsunra@gmail.com>",
+    "url": "https://thegreatsunra.com"
   },
   "contributors": [
     {
-      "name": "Ben Styles",
-      "url": "http://leeds-ebooks.co.uk/"
+      "name": "Evan Sims",
+      "url": "http://evansims.com"
     },
     {
-      "name": "Garrett Murphey",
-      "url": "http://gmurphey.com/"
+      "name": "Ben Styles",
+      "url": "http://leeds-ebooks.co.uk"
+    },
+    {
+      "name": "Nikolay Kostyurin",
+      "url": "http://artkost.ru"
+    },
+    {
+      "name": "Badr Chaouai",
+      "url": "http://arkhamdev.com"
     }
   ],
   "bugs": {

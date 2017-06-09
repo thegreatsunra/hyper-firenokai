@@ -22,4 +22,4 @@ Add `hyper-firewatch` to the plugins list in your `~/.hyper.js` config file.
 
 ## License
 
-MIT © [Evan Sims](http://evansims.com), [Ben Styles](http://leeds-ebooks.co.uk)
+MIT © [Dane Petersen](https://thegreatsunra.com), [Evan Sims](http://evansims.com), [Ben Styles](http://leeds-ebooks.co.uk), [Nikolay Kostyurin](http://artkost.ru), [Badr Chaouai](http://arkhamdev.com/)
