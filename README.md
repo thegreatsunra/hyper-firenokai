@@ -4,7 +4,7 @@
 
 A theme for [Hyper](https://hyper.is/) that combines the best of [Evan Sims](https://github.com/evansims)' [hyper-firewatch](https://github.com/evansims/hyper-firewatch) theme with the best of [Nikolay Kostyurin](https://github.com/jilizart)'s [hyper-monokai-vibrancy](https://github.com/JiLiZART/hyper-monokai-vibrancy) theme.
 
-* Used `hyper-firewatch` as a base theme
+* Started with `hyper-firewatch` as a base theme
 * Swapped out Firewatch color palette for Monokai palette
 * Added left padding to first tab to prevent title from running under macOS window controls
 
