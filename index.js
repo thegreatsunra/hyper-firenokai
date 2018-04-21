@@ -9,7 +9,7 @@ const BLUE = '#AE81FF'; // monokai purple
 const MAGENTA = '#AE81FF'; // monokai purple
 const CYAN = '#38CCD1';
 const WHITE = '#ebebff';
-const BLACK = 'rgba(0,0,0,0.15)';
+const BLACK = 'rgba(0, 0, 0, 0.15)';
 
 const BRIGHT_RED = RED;
 const BRIGHT_GREEN = GREEN;
@@ -22,8 +22,8 @@ const BRIGHT_BLACK = BROWN_GRAY;
 
 const DEEP_BLACK = BLACK;
 
-const WINDOW_BACKGROUND_COLOR = 'rgba(25,25,25,0.75)';
-const TERMINAL_BACKGROUND_COLOR = 'rgba(0, 0, 0, 0.15)';
+const WINDOW_BACKGROUND_COLOR = 'rgba(25, 25, 25, 0.7)';
+const TERMINAL_BACKGROUND_COLOR = 'rgba(25, 25, 25, 0.7)';
 const FOREGROUND_COLOR = WHITE;
 const BORDER_COLOR = DEEP_BLACK;
 
@@ -84,6 +84,7 @@ const CSS = `
   }
 
   .tab_tab {
+    background-color: rgba(15, 15, 15, 0.7);
     color: ${FOREGROUND_COLOR} !important;
     border: 0 !important;
     padding-left: 0 !important;

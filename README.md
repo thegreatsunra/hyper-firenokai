@@ -8,7 +8,7 @@ A theme for [Hyper](https://hyper.is/) that combines the best of [Evan Sims](htt
 * Swapped out Firewatch color palette for Monokai palette
 * Added left padding to first tab to prevent title from running under macOS window controls
 
-I've only been tested this theme on macOS Sierra, so I cannot attest to the experience on other platforms.
+I've only tested this theme on macOS Sierra, so I cannot attest to the experience on other platforms.
 
 Issues are open and pull requests are welcome.
 
@@ -23,7 +23,7 @@ Inspired by Campo Santo's [Firewatch game](http://www.firewatchgame.com/). Adapt
 
 ## Install
 
-In Hyper, open Preferences, add `hyper-firenokai` to the plugins list in your `~/.hyper.js` config file.
+In Hyper, open Preferences and add `hyper-firenokai` to the plugins list. Save your changes to the config file, and then quit and restart Hyper.
 
 ## License
 
