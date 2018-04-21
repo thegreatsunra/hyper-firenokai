@@ -84,6 +84,7 @@ const CSS = `
   }
 
   .tab_tab {
+    background-color: rgba(15, 15, 15, 0.7);
     color: ${FOREGROUND_COLOR} !important;
     border: 0 !important;
     padding-left: 0 !important;
