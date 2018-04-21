@@ -9,7 +9,7 @@ const BLUE = '#AE81FF'; // monokai purple
 const MAGENTA = '#AE81FF'; // monokai purple
 const CYAN = '#38CCD1';
 const WHITE = '#ebebff';
-const BLACK = 'rgba(0,0,0,0.15)';
+const BLACK = 'rgba(0, 0, 0, 0.15)';
 
 const BRIGHT_RED = RED;
 const BRIGHT_GREEN = GREEN;
